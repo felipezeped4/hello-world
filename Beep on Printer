@@ -1,0 +1,9 @@
+/* Emitir un beep con el caracter "\0007" al enviarlo a una impresora */
+
+public class testBeep {
+ public static main(String args[]) {
+    // ASCII bell
+    System.out.print("\0007");
+    System.out.flush();
+    }
+ }
